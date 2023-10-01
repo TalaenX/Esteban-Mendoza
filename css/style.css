@@ -1,0 +1,802 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+font-family: 'Krona One', sans-serif;
+
+/* index */
+
+header{
+    display: flex;
+}
+
+.logo{
+    width: 100px;
+    height: 5px;
+}
+
+.logo img{
+    width: 100%;
+    height: 800%;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+    text-align: end;
+    justify-content: space-between;
+    padding: .625rem;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: dashed none;
+}
+
+.mindex{
+    background-color: black;
+    font-size: 3.125rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.mindex h1,h2,h3{
+    text-align: center;
+}
+
+.mindex img{
+    width: 100%;
+    height: 800px;
+}
+
+.mindex section{
+    font-size: 6.25rem;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+.mindex section p{
+    font-size: 3.125rem;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+.mindex section a{
+    font-size: 3.125rem;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+.mindex section img{
+    width: 700px;
+    height: 31.25rem;
+}
+
+.mindex section p{
+    text-align: center;
+}
+
+.mindex section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mindex h2 a{
+    color: white;
+    font-size: 6.25rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.divimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.findex{
+    font-size: 3.125rem;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+}
+
+.findex section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.findex h2 a{
+    text-decoration: dashed none;
+    color: green;
+}
+
+/* index fin */
+
+/* informacion */
+
+.binformacion{
+    background-color: black;
+}
+
+.minfo{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+.minfo h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+.minfo h1{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+
+.minfo img{
+    width: 100%;
+    height: 800px;
+
+}
+
+.artistas h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+.artistas p{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.125rem;
+}
+
+.artistas img{
+    width: 50%;
+    height: 500px;
+}
+
+.artistas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ifooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ifooter h2 a{
+    text-decoration: dashed none;
+    color: green;
+}
+
+/* informacion fin */
+
+/* eventos */
+
+.beventos{
+    background-color: black;
+}
+
+.emain{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+.emain img{
+    width: 100%;
+    height: 800px;
+}
+
+.emain section img{
+    width: 100%;
+    height: 100%;
+}
+
+.emain section p{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.125rem;
+}
+
+.emain section iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.emain h1{
+    text-align: center;
+}
+
+.grids{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 50rem 50rem;
+    grid-template-rows: 40rem 40rem;
+    grid-template-areas: 
+    img p
+    iframe p;
+    gap: 100px;
+}
+
+
+/* .emain section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emain section{
+    column-gap: 10px;
+    row-gap: 10px;
+} */
+
+.efooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.efooter h2 a{
+    text-decoration: dashed none;
+    color: green;
+}
+
+/* eventos fin */
+
+/* playlists */
+
+.bplaylists{
+    background-color: black;
+}
+
+.listas img{
+    width: 100%;
+    height: 800px;
+}
+
+.playlist h1{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+    text-align: center;
+}
+
+.playlist img{
+    width: 720px;
+    height: 720px;
+}
+
+.playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flist h2 a{
+    text-decoration: dashed none;
+    color: green;
+}
+
+/* playlists fin */
+
+/* contacto */
+
+.bcontactos{
+    background-color: black;
+}
+
+.contact h1{
+    color: white;
+    font-size: 6.25rem;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+}
+
+
+.contact img{
+    width: 100%;
+    height: 800px;
+}
+
+.formulario{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.125rem;
+}
+
+.formulario fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* contacto fin */
+
+footer{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.125rem;
+    background-color: black;
+}
+
+main section p{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+.listas a{
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    font-size: 6.25rem;
+}
+
+
+@media (max-width: 1024px){
+    .mindex img{
+        width: 100%;
+        height: auto;
+    }
+    .mindex section h1{
+        font-size: 5rem;
+    }
+    .mindex section h2{
+        font-size: 5rem;
+    }
+    .mindex section h2 a{
+        font-size: 5rem;
+    }
+    .mindex section h3{
+        font-size: 5rem;
+    }
+    .findex h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .findex h2{
+        font-size: 5rem;
+    }
+    .findex h2 a{
+        font-size: 5rem;
+    }
+    .minfo img{
+        width: 100%;
+        height: auto;
+    }
+    .artistas h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .artistas h2{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .artistas h3{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .artistas h4{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .artistas h5{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .artistas h6{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .artistas p{
+        font-size: 3.125rem;
+        text-align: center;
+    }
+    .ifooter h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .ifooter h2{
+        font-size: 5rem;
+    }
+    .emain img{
+        width: 100%;
+        height: auto;
+    }
+    .emain h1{
+        font-size: 80px;
+    }
+    .grids{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 50rem 10rem;
+        grid-template-rows: 20rem 9rem;
+        grid-template-areas: 
+        img p
+        iframe p;
+        gap: 5px;
+        row-gap: 95px;
+    }
+    .emain section img{
+        width: 80%;
+        height: auto;
+    }
+    .emain section p{
+        font-size: 18px;
+        text-align: start;
+    }
+    .emain section iframe{
+        width: 80%;
+        height: 500px;
+    }
+    .efooter h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .efooter h2{
+        font-size: 5rem;
+    }
+    .listas img{
+        width: 100%;
+        height: auto;
+    }
+    .listas a{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .radios{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .flist h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .flist h2{
+        font-size: 5rem;
+    }
+    .contact img{
+        width: 100%;
+        height: auto;
+    }
+    .contact h1{
+        font-size: 5rem;
+    }
+    .formulario fieldset legend{
+        font-size: 3.125rem;
+        text-align: center;
+    }
+    .formulario fieldset{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cfooter h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .mindex img{
+        width: 100%;
+        height: auto;
+    }
+    .mindex section h2{
+        font-size: 3.75rem;
+    }
+    .mindex section h2 a{
+        font-size: 3.75rem;
+    }
+    .mindex section h3{
+        font-size: 3.75rem;
+    }
+    .findex h1{
+        font-size: 3.75rem;
+        text-align: center;
+    }
+    .findex h2{
+        font-size: 3.75rem;
+    }
+    .minfo img{
+        width: 100%;
+        height: auto;
+    }
+    .minfo h1{
+        font-size: 3.75rem;
+        text-align: center;
+    }
+    .artistas h1{
+        font-size: 3.125rem;
+    }
+    .artistas h2{
+        font-size: 3.125rem;
+    }
+    .artistas h3{
+        font-size: 3.125rem;
+    }
+    .artistas h4{
+        font-size: 3.125rem;
+    }
+    .artistas h5{
+        font-size: 3.125rem;
+    }
+    .artistas h6{
+        font-size: 3.125rem;
+    }
+    .artistas p{
+        font-size: 2.5rem;
+    }
+    .ifooter h1{
+        font-size: 3.75rem;
+        text-align: center;
+    }
+    .ifooter h2{
+        font-size: 3.75rem;
+    }
+    .emain img{
+        width: 100%;
+        height: auto;
+    }
+    .emain h1{
+        font-size: 3.75rem;
+    }
+    .grids{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 20rem 13rem;
+        grid-template-rows: 13rem 9rem;
+        grid-template-areas: 
+        img p
+        iframe p;
+        gap: 100px;
+        row-gap: 13px;
+    }
+    .emain section img{
+        width: 100%;
+        height: auto;
+    }
+    .emain section p{
+        font-size: 15px;
+    }
+    .emain section iframe{
+        width: 100%;
+        height: auto;
+    }
+    .efooter h1{
+        font-size: 3.75rem;
+        text-align: center;
+    }
+    .efooter h2{
+        font-size: 3.75rem;
+    }
+    .listas img{
+        width: 100%;
+        height: auto;
+    }
+    .listas h1{
+        font-size: 4.375rem;
+    }
+    .listas a{
+        font-size: 2.8125rem;
+        text-align: center;
+    }
+    .radios{
+        font-size: 4.0625rem;
+        text-align: center;
+    }
+    .flist h1{
+        font-size: 3.75rem;
+        text-align: center;
+    }
+    .flist h2{
+        font-size: 3.75rem;
+    }
+    .contact img{
+        width: 100%;
+        height: auto;
+    }
+    .contact h1{
+        font-size: 3.75rem;
+    }
+    .formulario fieldset legend{
+        font-size: 2.8125rem;
+        text-align: center;
+    }
+    .formulario fieldset{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cfooter h1{
+        font-size: 3.75rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px){
+    .navbar{
+        text-align: center;
+    }
+    .mindex img{
+        width: 100%;
+        height: auto;
+    }
+    .mindex section img{
+        width: 100%;
+        height: auto;
+    }
+    .mindex section p{
+        font-size: 1.25rem;
+    }
+    .mindex section p a{
+        font-size: 1.25rem
+    }
+    .mindex section h1{
+        font-size: 1.875rem;
+    }
+    .mindex section h2{
+        font-size: 1.75rem;
+    }
+    .mindex section h2 a{
+        font-size: 1.75rem;
+    }
+    .mindex section h3{
+        font-size: 1.75rem;
+    }
+    .mindex section a{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+    .findex h1{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+    .findex h2{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+    .minfo img{
+        width: 100%;
+        height: auto;
+    }
+    .minfo h1{
+        font-size: 1.875rem;
+    }
+    .minfo h2{
+        font-size: 1.875rem;
+    }
+    .minfo h3{
+        font-size: 1.875rem;
+    }
+    .minfo h4{
+        font-size: 1.875rem;
+    }
+    .minfo h5{
+        font-size: 1.875rem;
+    }
+    .minfo h6{
+        font-size: 1.875rem;
+    }
+    .artistas p{
+        font-size: 1.25rem;
+    }
+    .ifooter h1{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+    .ifooter h2{
+        font-size: 1.875rem;
+    }
+    .emain img{
+        width: 100%;
+        height: auto;
+    }
+    .emain h1{
+        font-size: 1.875rem;
+    }
+    .grids{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 15rem 10rem;
+        grid-template-rows: 9rem 9rem;
+        grid-template-areas: 
+        img p
+        iframe p;
+        gap: 20px;
+        row-gap: 13px;
+    }
+    .emain section img{
+        width: 100%;
+        height: auto;
+    }
+    .emain section p{
+        font-size: 10px;
+    }
+    .emain section iframe{
+        width: 100%;
+        height: auto;
+    }
+    .efooter h1{
+        font-size: 1.875rem;
+        text-align: center
+    }
+    .efooter h2{
+        font-size: 1.875rem;
+    }
+    .radios{
+        font-size: 1.875rem;
+    }
+    .listas img{
+        width: 100%;
+        height: auto;
+    }
+    .listas h1{
+        font-size: 1.875rem;
+    }
+    .playlist img{
+        width: 100%;
+        height: auto;
+    }
+    .playlist a{
+        font-size: 1.25rem;
+    }
+    .flist h1{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+    .flist h2{
+        font-size: 1.875rem;
+    }
+    .contact img{
+        width: 100%;
+        height: auto;
+    }
+    .contact h1{
+        font-size: 1.875rem;
+    }
+    .formulario{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .formulario fieldset{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cfooter h1{
+        font-size: 1.875rem;
+        text-align: center;
+    }
+}
